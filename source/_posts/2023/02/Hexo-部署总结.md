@@ -53,3 +53,38 @@ tags:
   ```
 
   
+
+####  Actions提交方法
+
++ 添加文件
+
+  ```properties
+  # 在 coderxbp 目录下执行
+  git add .
+  ```
+
++ 本次提交信息
+
+  ```properties
+  git commit -m "操作"
+  ```
+
++ 推送远程仓库
+
+  ```properties
+  git push origin coder-xbp
+  ```
+
++ 同步本地
+
+  ```properties
+  git push origin coder-xbp
+  ```
+
++ 同步`HEAD`
+
+  ```properties
+  git fetch
+  ```
+
+  
